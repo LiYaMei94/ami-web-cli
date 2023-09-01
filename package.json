@@ -1,0 +1,27 @@
+{
+  "name": "ami-web-cli",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ami-web-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/LiYaMei94/ami-web-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.2.0",
+    "ora": "^5.1.0"
+  }
+}

@@ -1,0 +1,6 @@
+# Ignore files:
+dist
+publish
+node_modules
+*.html
+package-lock.json
